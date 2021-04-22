@@ -135,6 +135,41 @@ As word clouds are best way to analyze text and shows which words are the most f
 
 First, with the help of ruled based system we found out polarity of each word. Moreover, words with polarity > 0 are positive words. As you can see from the image above, some of the overused positive words with high polarity value are good, great, best, fun, perfect, etc. To make this look better we have masked the PNG of game controller under the word cloud. In addition, to make sure that mask works properly, we used it in numpy array form. 
 
+## Word Cloud of Negative User Reviews ---->
+
+![image](https://user-images.githubusercontent.com/57821332/115756351-1f308100-a36c-11eb-83d5-b95f4b5e7c5f.png)
+
+Similar to the positive reviews word cloud, we have used the same approach to show negative words in word cloud, found polarity of each words with rule-based system approach. 
+Words with polarity < 0 are negative words. As you can see from the image above, some of the overused positive words with less polarity value are bad, boring, terrible, never, etc.
+
+## Visual Analysis ---->
+
+A. Visual Representation 1
+Top 10 positive games with respect to sentiment (Polarity) --> 
+![image](https://user-images.githubusercontent.com/57821332/115756727-45562100-a36c-11eb-9d2c-70e794a575a0.png)
+
+Insight --> Tony Hawk’s Pro Skater 2 has most positive reviews posted by users in terms of polarity. Sports Genre has the highest number of games with positive reviews.
+
+
+B. Visual Representation 2
+Top 10 positive game developers with respect to sentiment (Polarity) --> 
+![image](https://user-images.githubusercontent.com/57821332/115757103-5b63e180-a36c-11eb-8540-b3f31d4164e3.png)
+
+Insight --> Nintendo has developed the greatest number of games with positive reviews from users. 
+
+C. Visual Representation 3
+User Rating Distribution and Review Sentiment Distribution -->
+![image](https://user-images.githubusercontent.com/57821332/115757382-6c145780-a36c-11eb-9ddf-9b9db6f919f2.png)
+
+Insight --> Here we can observe that, difference in the number of positive reviews is minimal while comparing user rating and review sentiment distribution. Further, there is a slight increase in number of negative reviews for games. 
+
+
+D. Visual Representation 4
+Top 20 game genre with respect to sentiment (polarity) --> 
+![image](https://user-images.githubusercontent.com/57821332/115757613-7a627380-a36c-11eb-8ed0-40b54975fbcb.png)
+
+Insight --> Here, the bubble chart visualizes the top 20 genres in terms of polarity.
+
 
 
 
