@@ -210,7 +210,9 @@ After running the different machine learning models like K- nearest neighbor, de
 
 ## Conclusion ---->
 •	Implementing BeautifulSoup and Selenium simultaneously, streamlines the process of web scraping for Metacritic.com.  
+
 •	Based on the Sentiment Analysis of games reviews, it is evident that 95% of the games have positive reviews.
+
 •	After performing Analysis of user reviews and building a predictive model, we achieved 84% accuracy with Random Forest classification algorithm.
 
 
