@@ -91,3 +91,23 @@ A. Part 1 – Scraping Metacritic Game Elements/Game Links/User Review Links
 In the part 1 of the scraping process, we have extracted a wide array of games and its elements using BeautifulSoup Library in python. Moreover, we also extracted game links and user review links for further scraping of inner html which comprises of reviews, ratings, and their review date.
 
 ![image](https://user-images.githubusercontent.com/57821332/115755092-f3f96200-a36a-11eb-80fe-15475d01187e.png)
+
+![image](https://user-images.githubusercontent.com/57821332/115755161-0a072280-a36b-11eb-9c98-9b578883567e.png)
+
+
+B. Part 2 – Scraping Metacritic Game Reviews
+In the part 2 of the scraping process, we have extracted game user reviews and user ratings for the top 1000 games using Selenium web driver framework and phantomJS browser.
+
+![image](https://user-images.githubusercontent.com/57821332/115755213-1d19f280-a36b-11eb-91e0-c289bf2a27e2.png)
+
+## Sentiment Analysis -->
+Sentimental Analysis is contextual mining of text to extract subjective information in a material to understand and predict public reviews or opinions. Our project implements two different sentiment analysis methods- 
+
+Method-1 
+Rule Based System
+
+Rule-based system is one of the NLP methods, which uses a set of manually crafted rules. These rules are applied on the text corpus, i.e. the game reviews in our project. It counts the words in every review that reflect positivity and negativity based on pre-defined dictionaries. And later provides a polarity & subjectivity of each & every review.
+
+DISTRIBUTION OF POLARITY ---->
+
+![image](https://user-images.githubusercontent.com/57821332/115755357-420e6580-a36b-11eb-820a-2b5914aca094.png)
