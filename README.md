@@ -171,6 +171,47 @@ Top 20 game genre with respect to sentiment (polarity) -->
 Insight --> Here, the bubble chart visualizes the top 20 genres in terms of polarity.
 
 
+## Machine learning Models ---->
+In our project we have used classification model to identify whether the given sentiment is positive or negative. 
+
+Before training the model, we have created a new variable called Reviews Sentiment in our dataset. Based on polarity score we tried to label positive and negative sentiments. If the polarity score < 0 then we considered it as negative review and if the polarity score > 0 then we considered sentiment as positive review. Here, we used classification technique which is useful to classify the output. For that we applied 3 ML algorithms like Random Forest classifier, Decision Tree Classifier and KNN algorithm.
+
+First, we took review columns in Dataset. Then we cleaned this text and converted this text into vector array using TF-IDF vectorizer which is used to transform text into a meaningful representation of numbers. Moreover, used to fit machine algorithm for prediction. 
+
+After that we split our dataset using train test split function from Scikit learn. Here we used 80% data for training and 20% data for testing.
+
+
+A.	Random Forest Classifier:
+Large number of approximately uncorrelated models working as a committee will surpass any of the individual basic models.  
+
+![image](https://user-images.githubusercontent.com/57821332/115758174-d4633900-a36c-11eb-9d2d-9ad1c2de0599.png)
+
+Here we took,
+
+n-estimator = 200 (it is a parameter that defines the number of trees in the random forest).
+
+![image](https://user-images.githubusercontent.com/57821332/115758213-de853780-a36c-11eb-8ae2-ddbbea068c6e.png)
+
+
+C.	K-nearest Neighbor:
+
+The k-nearest-neighbors algorithm is useful to find the ‘sameness’. The algorithm takes labelled points and uses them to learn how to label other points. 
+
+![image](https://user-images.githubusercontent.com/57821332/115758248-e8a73600-a36c-11eb-8020-3afa80ccc819.png)
+
+For Nearest Neighbor we got testing accuracy of 33.38%
+
+## Results ---->
+Findings --> 
+Our findings signify that while comparing user rating and review sentiment distribution, difference in the number of positive reviews is minimal in user rating. In addition, there is slight increase in number of negative reviews for the games. 
+
+Proposed Prediction Method -->
+After running the different machine learning models like K- nearest neighbor, decision trees and random forest. We found out K-nearest Neighbor is best fit for predicting negative and positive sentiments of user reviews.
+
+## Conclusion ---->
+•	Implementing BeautifulSoup and Selenium simultaneously, streamlines the process of web scraping for Metacritic.com.  
+•	Based on the Sentiment Analysis of games reviews, it is evident that 95% of the games have positive reviews.
+•	After performing Analysis of user reviews and building a predictive model, we achieved 84% accuracy with Random Forest classification algorithm.
 
 
 
