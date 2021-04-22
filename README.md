@@ -111,3 +111,31 @@ Rule-based system is one of the NLP methods, which uses a set of manually crafte
 DISTRIBUTION OF POLARITY ---->
 
 ![image](https://user-images.githubusercontent.com/57821332/115755357-420e6580-a36b-11eb-820a-2b5914aca094.png)
+
+The above graph is normally distributed and symmetric. Which indicates that the top 1000 games reviews are more on the positive side. 
+
+Method -2 
+
+Aspect based Sentiment Analysis
+
+![image](https://user-images.githubusercontent.com/57821332/115755500-69fdc900-a36b-11eb-9960-094bd167440c.png)
+
+The Aspect Based Sentiment Analysis (ABSA) takes into consideration the terms related to the aspects and identifies the sentiment associated with each aspect. ABSA model requires aspect categories and its corresponding aspect terms to extract sentiment for each aspect from the text corpus, which is the reviews for the games in our project and determines if the identified aspect is positive or negative
+
+## Aspect Sentiments ---->
+
+![image](https://user-images.githubusercontent.com/57821332/115755612-869a0100-a36b-11eb-8b41-5682ce632f05.png)
+
+The above figure reflects positive sentiments for aspects like “graphics”, “story” & “gameplay”. 
+
+3# Word Cloud of positive user reviews  ---->
+As word clouds are best way to analyze text and shows which words are the most frequent among the given text. We have used word cloud to show positive and negative user reviews of all the games. 
+
+![image](https://user-images.githubusercontent.com/57821332/115755743-acbfa100-a36b-11eb-9528-b1400b312d28.png)
+
+First, with the help of ruled based system we found out polarity of each word. Moreover, words with polarity > 0 are positive words. As you can see from the image above, some of the overused positive words with high polarity value are good, great, best, fun, perfect, etc. To make this look better we have masked the PNG of game controller under the word cloud. In addition, to make sure that mask works properly, we used it in numpy array form. 
+
+
+
+
+
