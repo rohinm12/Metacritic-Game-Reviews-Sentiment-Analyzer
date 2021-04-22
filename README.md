@@ -146,6 +146,7 @@ Words with polarity < 0 are negative words. As you can see from the image above,
 
 A. Visual Representation 1
 Top 10 positive games with respect to sentiment (Polarity) --> 
+
 ![image](https://user-images.githubusercontent.com/57821332/115756727-45562100-a36c-11eb-9d2c-70e794a575a0.png)
 
 Insight --> Tony Hawk’s Pro Skater 2 has most positive reviews posted by users in terms of polarity. Sports Genre has the highest number of games with positive reviews.
@@ -153,12 +154,14 @@ Insight --> Tony Hawk’s Pro Skater 2 has most positive reviews posted by users
 
 B. Visual Representation 2
 Top 10 positive game developers with respect to sentiment (Polarity) --> 
+
 ![image](https://user-images.githubusercontent.com/57821332/115757103-5b63e180-a36c-11eb-8540-b3f31d4164e3.png)
 
 Insight --> Nintendo has developed the greatest number of games with positive reviews from users. 
 
 C. Visual Representation 3
 User Rating Distribution and Review Sentiment Distribution -->
+
 ![image](https://user-images.githubusercontent.com/57821332/115757382-6c145780-a36c-11eb-9ddf-9b9db6f919f2.png)
 
 Insight --> Here we can observe that, difference in the number of positive reviews is minimal while comparing user rating and review sentiment distribution. Further, there is a slight increase in number of negative reviews for games. 
@@ -166,6 +169,7 @@ Insight --> Here we can observe that, difference in the number of positive revie
 
 D. Visual Representation 4
 Top 20 game genre with respect to sentiment (polarity) --> 
+
 ![image](https://user-images.githubusercontent.com/57821332/115757613-7a627380-a36c-11eb-8ed0-40b54975fbcb.png)
 
 Insight --> Here, the bubble chart visualizes the top 20 genres in terms of polarity.
